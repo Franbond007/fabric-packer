@@ -1,0 +1,22 @@
+# Archivierte Alte-Ordner
+_archive/
+
+# IDE
+.idea/
+
+# Build-Ausgaben
+build/
+build-*/
+cfr*/
+static-enhanced*/
+manifest-check/
+out-check/
+testbuild/
+
+# JARs: nur das Ergebnis und die vendor tools committen
+*.jar
+!fabric-packer.jar
+!tools/*.jar
+
+# Smoke-Test-Ausgabe
+test/smoke/
